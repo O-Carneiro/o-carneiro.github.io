@@ -11,7 +11,7 @@ changes were suggested by a maitainer? It got me wondering how many
 of these little "odd jobs" are laying around the kernel waiting to be
 done
 
-### What did I actually do? <small> you may be asking yourself </small>
+### What did I actually do?
 
 We picked the iio_device_claim_direct() suggestion task. It consists of
 adding this function call in some cases, to prevent concurrent access 
@@ -44,7 +44,7 @@ static int ads131e08_debugfs_reg_access(struct iio_dev *indio_dev,
 ```
 It looks similar to a mutex clause in concurrent programming. 
 
-The whoke patchest was basically this change in 2 more places: 
+The whole patchest was basically this change in 2 more places: 
  - In ad4000.c write_raw_get_fmt()
  - In ads131e08.c ads131e08_trigger_handler(), but we're not so 
  sure about this change.
@@ -68,4 +68,3 @@ letter paragraph, figuring out smtp with gmail, etc. Very bureaucratic, harder t
 I was used to. In hindsight, though, it makes sense that a project as complex as the 
 linux kernel would be very organized and attentive to good communication overall.
 
-Let's just pray it gets in.
