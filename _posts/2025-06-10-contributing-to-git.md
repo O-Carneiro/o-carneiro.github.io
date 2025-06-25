@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First issue+patchset
+title: Contributing to git
 date: 2025-06-10 22:43 -0300
 ---
 
