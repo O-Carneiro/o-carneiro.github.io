@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coleta centralizada de telemetria de uso de software; Uma Aplição para o Kernel Workflow (kw)
-date: 2026-04-19 20:17 -0300
+date: 2026-04-21 20:17 -0300
 ---
 
 # 1. Introdução
